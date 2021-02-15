@@ -1,0 +1,202 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 631.863 s <<< FAILURE! - in TestSuite
+initialize(Academy.validateTitle)  Time elapsed: 620.919 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHANOO', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0069C0C3+3326147]
+	Ordinal0 [0x00580851+2164817]
+	Ordinal0 [0x00407298+619160]
+	Ordinal0 [0x003FB17F+569727]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x004038B1+604337]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x00401D2C+597292]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FFE62+589410]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FF075+585845]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003F6776+550774]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003F9F13+565011]
+	Ordinal0 [0x003F9D07+564487]
+	Ordinal0 [0x004082C0+623296]
+	Ordinal0 [0x003A6BDD+224221]
+	Ordinal0 [0x003A5CAC+220332]
+	Ordinal0 [0x003A189B+202907]
+	Ordinal0 [0x00383DF4+81396]
+	Ordinal0 [0x00384DEE+85486]
+	Ordinal0 [0x00384D79+85369]
+	Ordinal0 [0x005985DC+2262492]
+	GetHandleVerifier [0x00822874+1487204]
+	GetHandleVerifier [0x008223CD+1486013]
+	GetHandleVerifier [0x0082A368+1518680]
+	GetHandleVerifier [0x00822F4E+1488958]
+	Ordinal0 [0x0058ED0D+2223373]
+	Ordinal0 [0x0059A12B+2269483]
+	Ordinal0 [0x0059A26F+2269807]
+	Ordinal0 [0x005AECB8+2354360]
+	BaseThreadInitThunk [0x75AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D176B4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D17684+180]
+
+	at Academy.validateTitle.initialize(validateTitle.java:30)
+
+initialize(Academy.HomePage)  Time elapsed: 0.194 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHANOO', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0069C0C3+3326147]
+	Ordinal0 [0x00580851+2164817]
+	Ordinal0 [0x00407298+619160]
+	Ordinal0 [0x003FB17F+569727]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x004038B1+604337]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x00401D2C+597292]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FFE62+589410]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FF075+585845]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003F6776+550774]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003F9F13+565011]
+	Ordinal0 [0x003F9D07+564487]
+	Ordinal0 [0x004082C0+623296]
+	Ordinal0 [0x003A6BDD+224221]
+	Ordinal0 [0x003A5CAC+220332]
+	Ordinal0 [0x003A189B+202907]
+	Ordinal0 [0x00383DF4+81396]
+	Ordinal0 [0x00384DEE+85486]
+	Ordinal0 [0x00384D79+85369]
+	Ordinal0 [0x005985DC+2262492]
+	GetHandleVerifier [0x00822874+1487204]
+	GetHandleVerifier [0x008223CD+1486013]
+	GetHandleVerifier [0x0082A368+1518680]
+	GetHandleVerifier [0x00822F4E+1488958]
+	Ordinal0 [0x0058ED0D+2223373]
+	Ordinal0 [0x0059A12B+2269483]
+	Ordinal0 [0x0059A26F+2269807]
+	Ordinal0 [0x005AECB8+2354360]
+	BaseThreadInitThunk [0x75AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D176B4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D17684+180]
+
+	at Academy.HomePage.initialize(HomePage.java:29)
+
+initialize(Academy.validateNavigationBar)  Time elapsed: 0.24 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHANOO', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0069C0C3+3326147]
+	Ordinal0 [0x00580851+2164817]
+	Ordinal0 [0x00407298+619160]
+	Ordinal0 [0x003FB17F+569727]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x004038B1+604337]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x00401D2C+597292]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FFE62+589410]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003FF075+585845]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003FAEA2+568994]
+	Ordinal0 [0x003FA421+566305]
+	Ordinal0 [0x003FA815+567317]
+	Ordinal0 [0x003FA135+565557]
+	Ordinal0 [0x003F6776+550774]
+	Ordinal0 [0x003FA0F1+565489]
+	Ordinal0 [0x003F9F13+565011]
+	Ordinal0 [0x003F9D07+564487]
+	Ordinal0 [0x004082C0+623296]
+	Ordinal0 [0x003A6BDD+224221]
+	Ordinal0 [0x003A5CAC+220332]
+	Ordinal0 [0x003A189B+202907]
+	Ordinal0 [0x00383DF4+81396]
+	Ordinal0 [0x00384DEE+85486]
+	Ordinal0 [0x00384D79+85369]
+	Ordinal0 [0x005985DC+2262492]
+	GetHandleVerifier [0x00822874+1487204]
+	GetHandleVerifier [0x008223CD+1486013]
+	GetHandleVerifier [0x0082A368+1518680]
+	GetHandleVerifier [0x00822F4E+1488958]
+	Ordinal0 [0x0058ED0D+2223373]
+	Ordinal0 [0x0059A12B+2269483]
+	Ordinal0 [0x0059A26F+2269807]
+	Ordinal0 [0x005AECB8+2354360]
+	BaseThreadInitThunk [0x75AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D176B4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D17684+180]
+
+	at Academy.validateNavigationBar.initialize(validateNavigationBar.java:34)
+
